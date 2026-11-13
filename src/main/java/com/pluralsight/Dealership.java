@@ -96,7 +96,7 @@ import java.util.List;
             List<Vehicle> result = new ArrayList<>();
             for (Vehicle vehicle : inventory) {
                 if (vehicle.getVehicleType().equalsIgnoreCase(vehicleType)) {
-                    result.add(vehicle); 
+                    result.add(vehicle);
                 }
             }
             return result;
